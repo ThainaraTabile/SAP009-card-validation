@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Resumo do Projeto(#1-resumo-do-projeto)
+* [1. Resumo do Projeto](#1-resumo-do-projeto)
 * [2. Considerações gerais](#3-considerações-gerais)
 * [4. Marco: Critérios de Aceitação Mínimos do Projeto](#4-marco-critérios-de-aceitação-mínimos-do-projeto)
 * [5. Marco Opcional: Mostrar a franquia do cartão](#5-marco-opcional-mostrar-a-franquia-do-cartão)
