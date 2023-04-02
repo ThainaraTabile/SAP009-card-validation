@@ -2,15 +2,10 @@
 
 ## Índice
 
-* [1. Resumo do Projeto](#1-resumo-do-projeto)
-* [2. Considerações gerais](#3-considerações-gerais)
-* [4. Marco: Critérios de Aceitação Mínimos do Projeto](#4-marco-critérios-de-aceitação-mínimos-do-projeto)
-* [5. Marco Opcional: Mostrar a franquia do cartão](#5-marco-opcional-mostrar-a-franquia-do-cartão)
-* [6. Considerações técnicas](#6-considerações-técnicas)
-* [7. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
-* [8. Guias, dicas e leituras
-  complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Para considerar o feedback do projeto](#9-para-considerar-o-feedback-do-projeto)
+- [Cartão de Crédito Válido - Livraria Aventuras Literárias](#cartão-de-crédito-válido---livraria-aventuras-literárias)
+  - [Índice](#índice)
+  - [1. Resumo do projeto](#1-resumo-do-projeto)
+  - [2. Considerações gerais](#2-considerações-gerais)
 
 *** 
 
@@ -24,16 +19,6 @@ A interface permite ao usuário validar o número de um cartão de crédito, sen
 
  O usuário preenche os campos do formulário, que simultaneamente são exibidos em um elemento ao lado que simula um cartão de crédito e inclusive exibe a franquia do cartão (com base nos dois primeiros dígitos). A função `maskiFy` oculta todos os dígitos de um cartão, exceto os quatro últimos. Enquanto a função `isValid` realiza a validação do cartão após o usúario clicar no botão `concluir compra`
 
-
-
-### Objetivos gerais deste projeto são os seguintes
-
-* Trabalhar com base em um boilerplate, a estrutura básica de um projeto em diferentes
-  pastas (através de módulos em JS).
-* Conhecer as ferramentas de manutenção e melhoria do código (linters e testes
-  unitários).
-* Aprenda sobre objetos, estruturas, métodos e iteração (loops) em JavaScript
-* Implementar controle de versão com git (e a plataforma github)
 
 ## 2. Considerações gerais
 
@@ -57,71 +42,11 @@ O método `maskify` consiste em substituir todos os dígitos do número do cart�
 
 
 
-**2. Testes unitários dos métodos.**
-Os métodos `validator` (`isValid` e `maskify`) devem ser cobertos por testes unitários.
+**3. Testes unitários dos métodos.**
+Os testes unitários dos métodos `validator` (`isValid` e `maskify`) cobriram 100% dos statements, functions e lines e branches.
 
-**3. Código do seu projeto enviado para seu repositório e interface "implantada".**
-O código final deve estar um repositório no GitHub. A interface, ou página da web,
-deve ser "implantada" (acessível online publicamente) usando o GitHub Pages.
-
-**4. Um README contendo uma definição de produto.**
-No README, conte-nos como você pensou sobre os usuários e qual foi o seu
-processo para definir o produto final em nível de experiência e interface.
-Estas perguntas servem de guia:
-
-* Quem são os principais usuários do produto
-* Quais são os objetivos desses usuários em relação ao seu produto
-* Como você acha que o produto que você está criando está resolvendo seus
-  problemas
-
-Com esses requisitos atendidos, você pode agendar um feedback do projeto com
-um coach.
-
-
-## 6. Considerações técnicas
-
-A lógica do projeto foi implementada inteiramente em JavaScript. Nesse
-projeto **NÃO** está permitido usar bibliotecas ou frameworks, só vanilla
-JavaScript.
-
-Para iniciar este projeto você terá que fazer um _fork_ e _clone_ desse
-repositório, que contém um _boilerplate_ com testes. Um _boilerplate_ é a
-estrutura básica de um projeto que serve como ponto de partida com arquivos
-iniciais e configuração básica de dependências e testes.
-
-Os testes unitários devem cobrir no mínimo de 70% dos _statements_, _functions_
-e _lines_, e um mínimo de 50% de _branches_. O _boilerplate_ já contem o setup e
-configurações necessárias para executar os testes assim como _code coverage_
-para ver o nível de cobertura dos testes usando o comando `npm test`.
-
-
-
-O _boilerplate_ inclui tarefas que executam [eslint](https://eslint.org/) e
-[htmlhint](https://github.com/yaniswang/HTMLHint) para verificar o `HTML` e
-`JavaScript` com respeito a uma guia de estilos. Ambas tarefas são executadas
-automaticamente antes de executar os testes quando usamos o comando `npm run
-test`.
-No caso do `JavaScript` estamos usando o `eslint` que está configurado no
-arquivo `.eslintrc` que contem o mínimo de informação como versão do
-JavaScript/ECMAScript, o ambiente (_browser_ nesse caso) e as [regras
-recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
-Nas regras/guias de estilo usaremos das recomendações padrão tanto para o
-`eslint` quanto `htmlhint`.
-
-#### Deploy
-
-Disponibilizar os projetos e colocá-los "no ar" vai ser parte cotidiana do
-ciclo de desenvolvimento em produtos de tecnologia.
-
-Para este projeto, utilizaremos o Github Pages para essa finalidade.
-O comando `npm run deploy` pode te auxiliar nessa tarefa e você pode também
-consultar a [documentação oficial](https://docs.github.com/pt/pages).
-
-
-
-
-
-
+**4.  Interface "implantada".**
+ A interface foi implantada utilizando o GitHub Pages e pode ser acessada na seguinte url: .
 
 
 

@@ -7,7 +7,6 @@
   font-family: 'OCRA';
   src: url('ocra.ttf');
 }
-
 body {
   margin: 0;
   display: flex;
@@ -15,10 +14,11 @@ body {
   align-items: center;
   background-repeat: no-repeat;
   background: #A7D2CB;
+  background-size: 100% 650px;
 }
 
 main {
-  padding: 0 0 53px 0;
+  padding: 0 ;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -26,13 +26,8 @@ main {
 
 .logo-desktop{
   width: 400px;
-  margin-top: 15rem;
-  margin-left: 0;
+  top: 15rem;
   position: fixed;
-}
-
-.ilustracao-desktop{
-  margin-right: 20px;
 }
 
 .nome-loja{
@@ -57,10 +52,14 @@ main {
 
 .tela-principal {
   display: flex;
-  justify-content: flex-end;
-  margin-left: auto;
-  margin-top: 10rem;
- margin-left:40%;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  width:100%;
+  padding: 100px;
+  gap:10px;
+  
+  
 }
 
 form {
@@ -104,10 +103,6 @@ form {
     border: 10px solid #F2D388;
   }
   .btn-compra {
-    position: fixed;
-    top: 35rem;
-    left: 50%;
-    margin: auto;
     align-self: center;
     padding: 12px 35px;
     border-radius: 10px;
@@ -118,30 +113,30 @@ form {
     text-transform: uppercase;
     font-size: 16px;
     cursor: pointer;
+    margin-right: 70px;
   }
 
   .formato-cartão{
     padding: 25px 27px;
     background: aliceblue;
-    margin-top: -18rem;
     width: 300px;
     height: 100px;
     display: grid;
-    margin-left:50%;
     border: 10px solid aliceblue;
     border-radius: 20px;
+    margin-right: 10px;
   }
   .img-chip{
     margin-top:1px;
     width: 50px;
-    position: fixed;
   }
   .div-cartao-impresso{
     margin-top: 20px;
     display: flex;
   }
   .num-cartao-impresso{
-    margin-left: 70px;
+    margin-left: 60px;
+    margin-top: -70px;
   }
   .num-cartao-impresso, .mes-impresso, .ano-impresso,
   .cvv-impresso, .nome-impresso, .validade{
@@ -149,6 +144,10 @@ form {
     border-color: transparent;
     font-family: 'OCRA', monospace;
     font-size: bold;
+  }
+  .validade{
+    display: flex;
+    margin-top: -15px;
   }
   .mes-ano{
     display: flex;

@@ -38,18 +38,6 @@ const validator = {
     }
 
   },
-//   validandoDataVencimento: function(mesVencimento, anoVencimento) {
-//     const dataAtual = new Date();
-//     const mes = mesVencimento.parseInt();
-//   const ano = anoVencimento.parseInt();
-//     if(ano < dataAtual.getFullYear()){
-//       return false;
-//     }
-//     if(ano === dataAtual.getFullYear() && mes < dataAtual.getMonth() +1){
-//       return false;
-//   }else{
-//     return true;
-//   }
-// },
+
 };
 export default validator;

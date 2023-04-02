@@ -47,17 +47,10 @@
         </div>
         <label for="cvv">cvv</label>
         <input name="cvv" class="cvv-cartao" type="text" minlength="3" maxlength="3" autocomplete="off" required />
-        </div>
       </form>
-      <div id="botao">
-        <button class="btn-compra" type="button">concluir compra</button>
-      </div>
       <p class="msg-erros-preenchimento"></p>
       <p class="msg-validacao"></p>
-    </section>
-  </main>
   <div class="formato-cartão">
-  
       <img src="img/cartao/chip.png" class="img-chip">
       <div class="div-cartao-impresso">
         <input class="num-cartao-impresso" disabled />
@@ -70,7 +63,13 @@
       <input class="nome-impresso" disabled />
       <input class="cvv-impresso" disabled />
       <input class="bandeira-cartao" />
+      
   </div>
+  <div id="botao">
+    <button class="btn-compra" type="button">concluir compra</button>
+  </div>
+</section>
+</main>
   <footer></footer>
   <script src="index.js" type="module"></script>
 </body>
