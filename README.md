@@ -11,7 +11,7 @@
 
 ## 1. Resumo do projeto
 
-Este projeto extra foi desenvolvido individualmente, com duração de 1 sprint durante o Bootcamp da Laboratória, com o objetivo de fixar o as ferramentas e metodologias utilizada nos projetos anteriores.
+Este projeto extra foi desenvolvido individualmente, com duração de 1 sprint durante o Bootcamp da Laboratória, com o objetivo de fixar o conhecimento, as ferramentas e metodologias utilizada nos projetos anteriores.
 
 Neste projeto, criei um aplicativo da Web simulando a compra de produtos da loja Aventuras Literárias, para finalizar a compra o usuário precisa informar os dados do cartão de crédito.
 
