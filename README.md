@@ -17,7 +17,7 @@ Neste projeto, criei um aplicativo da Web simulando a compra de produtos da loja
 
 A interface permite ao usuário validar o número de um cartão de crédito, sendo necessário preencher também os campos de nome, data de vencimento e CVV do cartão. 
 
- O usuário preenche os campos do formulário, que simultaneamente são exibidos em um elemento ao lado que simula um cartão de crédito e inclusive exibe a franquia do cartão (com base nos dois primeiros dígitos). A função `maskiFy` oculta todos os dígitos de um cartão, exceto os quatro últimos. Enquanto a função `isValid` realiza a validação do cartão após o usúario clicar no botão `concluir compra`
+ O usuário preenche os campos do formulário, que simultaneamente são exibidos em um elemento ao lado que simula um cartão de crédito e inclusive exibe a franquia do cartão (com base nos dois primeiros dígitos). A função `maskiFy` oculta todos os dígitos de um cartão, exceto os quatro últimos. Enquanto a função `isValid` realiza a validação do cartão após o usuário clicar no botão `concluir compra`
 
 
 ## 2. Considerações gerais
