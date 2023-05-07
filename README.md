@@ -46,7 +46,7 @@ O método `maskify` consiste em substituir todos os dígitos do número do cart�
 Os testes unitários dos métodos `validator` (`isValid` e `maskify`) cobriram 100% dos statements, functions e lines e branches.
 
 **4.  Interface "implantada".**
- A interface foi implantada utilizando o GitHub Pages e pode ser acessada na seguinte url:https://thainaratabile.github.io/SAP009-card-validation/src/ .
+ A interface foi implantada utilizando o GitHub Pages e pode ser acessada na seguinte url:https://sap-009-card-validation.vercel.app/ .
 
 
 
